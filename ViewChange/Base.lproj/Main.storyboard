@@ -30,12 +30,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="프리젠테이션 뷰이동"/>
+                                <connections>
+                                    <action selector="onBtnPresent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gmf-dw-8m9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POQ-in-ESn">
                                 <rect key="frame" x="124" y="563" width="167" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="네비로 이동"/>
+                                <connections>
+                                    <action selector="onBtnNevi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yF4-td-Y6x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AT-rT-8Cr">
                                 <rect key="frame" x="124" y="417" width="167" height="48"/>
@@ -43,6 +49,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Seque 뷰이동"/>
                                 <connections>
+                                    <action selector="onBtnSeque:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LrZ-tX-uAY"/>
                                     <segue destination="Wdl-QO-JMk" kind="show" id="2uW-Uq-2oO"/>
                                 </connections>
                             </button>
